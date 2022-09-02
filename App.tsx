@@ -9,6 +9,9 @@
  */
 
 import React, {type PropsWithChildren} from 'react';
+import { Sayhi } from './src/screens/Sayhi';
+import { Counter } from './src/screens/Counter';
+import { Form } from './src/screens/Form';
 import {
   SafeAreaView,
   ScrollView,
@@ -65,16 +68,7 @@ const App = () => {
   };
 
   return (
-    <View style={{
-      flex:1,
-      justifyContent: 'center',
-      backgroundColor:'grey'
-    }}>
-      <Text style={{
-        fontSize:55,
-        textAlign: 'center'
-      }}>This is my first app using React Native :D</Text>
-    </View>
+    <Form></Form>
   );
 };
 
